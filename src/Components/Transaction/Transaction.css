@@ -1,0 +1,44 @@
+.withdraw {
+    color: red;
+}
+
+.deposit {
+    color: green
+}
+
+span {
+    padding: 10px;
+    margin: 10px;
+    
+}
+.transaction-container{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+
+    grid-template-areas: 
+    "wz w b p";
+}
+ .delete-button{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 1vh;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+
+
+    border: 2px #bdd4cd inset;
+    border-left: none;
+    cursor: pointer;
+    margin: 10px;
+}
+ 

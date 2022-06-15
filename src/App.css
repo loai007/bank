@@ -2,17 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main-links > a{
+    margin: 10px;
+    color: #34495e;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+    text-decoration: none;
+    font-family: 'Cinzel Decorative'
 }
 
+a{
+    cursor: pointer;
+    color: black;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

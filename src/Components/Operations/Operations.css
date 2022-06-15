@@ -1,0 +1,35 @@
+input{
+    display: block;
+    width: 40vw;
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    color: #2c3e50;
+    vertical-align: bottom;
+}
+
+.button{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 1vh;
+    width: 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+
+
+    border: 2px #bdd4cd inset;
+    border-left: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:active{
+    background-color: #2980b9
+}
